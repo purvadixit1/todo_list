@@ -2,4 +2,6 @@
 
 This TO_DO_LIST will help you to remember your all tasks and to do on time.
 
-Visit site on 
+Clone the project by
+
+git clone "https://github.com/purvadixit1/todo_list.git"
