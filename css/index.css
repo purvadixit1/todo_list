@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2vh 0vw;
+}
+
+.main {
+    padding: 3vh 5vw;
+}
+
+.input-group-text {
+    background-color: white;
+}
+
+table {
+    width: 100%;
+}
+
+.col-1 {
+    width: 2.5%;
+}
+
+.col-2 {
+    width: 15%;
+}
+
+.col-3 {
+    width: 35%;
+}
+
+.col-4 {
+    width: 45%;
+}
+
+.col-5 {
+    width: 2.5%;
+}
+
+.checked {
+    background: rgb(175, 175, 175);
+    color: #fff;
+    text-decoration: line-through;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>To Do List</title>
+    <link rel="icon" type="image/ico" href="./img/titile_logo.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <h2 class="text-center">To Do List</h2>
+    <div class="main">
+        <div class="input-group mb-5">
+            <input type="text" id="listInput" class="form-control" placeholder="Add List item">
+            <input type="text" id="urlInput" class="form-control" placeholder="Add URL">
+            <input type="time" id="timeInput" class="input-group-text" name="timeInput" value="16:00">
+            <span onclick="addNewTask()" class="btn btn-success" type="submit">Add</span>
+        </div>
+        <div>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th class="col-1">
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                        </th>
+                        <th class="col-2">
+                            Deadline
+                        </th>
+                        <th class="col-3">
+                            Task 
+                        </th>
+                        <th class="col-4">
+                            Link
+                        </th>
+                        <th class="col-5">
+                            <i class="fa fa-times-circle" aria-hidden="true"></i>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="myList">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>
